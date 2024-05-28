@@ -25,7 +25,7 @@ defmodule Elixlsx2.Mixfile do
 
   defp deps do
     [
-      {:elixlsx, "~> 0.5.1"},
+      {:elixlsx, "~> 0.6.0"},
       {:credo, "~> 1.7", only: [:dev, :test]},
       {:ex_doc, ">= 0.0.0", only: [:dev], runtime: false},
       {:dialyxir, "~> 1.3", only: [:dev], runtime: false},
