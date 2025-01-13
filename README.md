@@ -1,5 +1,23 @@
 # A writer for Elixlsx library that support writing large excel file
+## Installation
 
+As of version 0.2, elixlsx_writer requires Elixir 1.12 or above.
+
+Installation via Hex, in `mix.exs`:
+
+```elixir
+defp deps do
+  [{:elixlsx_writer, "~> 0.2.0"}]
+end
+```
+
+Via GitHub:
+
+```elixir
+defp deps do
+  [{:elixlsx_writer, github: "bluzky/elixlsx-writer"}]
+end
+```
 
 ## Example
 
