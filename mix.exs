@@ -8,7 +8,7 @@ defmodule Elixlsx2.Mixfile do
     [
       app: :elixlsx_writer,
       version: @version,
-      elixir: "~> 1.12",
+      elixir: "~> 1.17",
       package: package(),
       description:
         "Elixlsx-writer is a writer for Elixlsx library, supporting writing large data to xlsx file by chunks. So you don't have to load all data into memory before writing to file.",
@@ -25,7 +25,7 @@ defmodule Elixlsx2.Mixfile do
 
   defp deps do
     [
-      {:elixlsx, "~> 0.6.0"},
+      {:elixlsx, git: "https://github.com/ARPC/elixlsx.git", branch: "main"},
       {:credo, "~> 1.7", only: [:dev, :test]},
       {:ex_doc, ">= 0.0.0", only: [:dev], runtime: false},
       {:dialyxir, "~> 1.3", only: [:dev], runtime: false},
